@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Jellyfin.Plugin.CinemaModeDisabler/Jellyfin.Plugin.CinemaModeDisabler.csproj" />
+  <Project Path="Jellyfin.Plugin.CinemaModeDisabler.Tests/Jellyfin.Plugin.CinemaModeDisabler.Tests.csproj" />
+</Solution>

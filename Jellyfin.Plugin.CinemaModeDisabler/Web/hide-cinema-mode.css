@@ -1,0 +1,4 @@
+.cinemaModeOptions,
+.checkboxContainer:has(.chkEnableCinemaMode) {
+    display: none !important;
+}
