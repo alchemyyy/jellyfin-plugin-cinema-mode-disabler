@@ -1,1 +1,20 @@
-[]
+[
+    {
+        "guid": "47e2e30e-7c54-4321-936f-228ff0de2a6c",
+        "name": "Cinema Mode Disabler",
+        "description": "Turns off Cinema Mode in Jellyfin Web for every user of every browser and hides the setting, so the web client stops requesting intros before each play from the start. Native apps keep their own setting.",
+        "overview": "Turns off Jellyfin Web's Cinema Mode for every user",
+        "owner": "alchemyyy",
+        "category": "General",
+        "versions": [
+            {
+                "version": "1.0.0.0",
+                "changelog": "Release 1.0.0.0",
+                "targetAbi": "12.1.0.0",
+                "sourceUrl": "https://github.com/alchemyyy/jellyfin-plugin-cinema-mode-disabler/releases/download/v1.0.0.0/cinema-mode-disabler_1.0.0.0.zip",
+                "checksum": "0aedf48939dc1d774a096d611717ccd8",
+                "timestamp": "2026-11-06T00:42:24Z"
+            }
+        ]
+    }
+]
