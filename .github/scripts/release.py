@@ -14,9 +14,8 @@ version on the assembly.
 
 set-version writes the version into both files and the changelog into build.yaml; build the plugin after it. package
 zips the artifacts of the dotnet publish output with a meta.json, and inserts or replaces that version in a plugin
-repository manifest. Both land in
-bin/package/ by default, a repository to serve over HTTP for test installs. The release workflow writes the committed
-manifest.json instead, with the GitHub release as the download source.
+repository manifest. Both land in bin/package/ by default, a repository to serve over HTTP for test installs. The
+release workflow writes the committed manifest.json instead, with the GitHub release as the download source.
 
 release-notes writes the GitHub release body: the install steps, the merged pull requests, and the commits since the
 previous release tag. It reads the history from git and the pull requests through the GitHub CLI.
